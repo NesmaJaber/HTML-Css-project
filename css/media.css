@@ -1,0 +1,98 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px){
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .list1{
+        margin-left:8px;
+        margin-top: 20px;
+    }
+    .show{
+        visibility: visible;
+        margin-left: 50%;
+    }
+    .brand{
+        margin-left: 8px;     
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .head{
+        margin-top: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .text-content{
+        width: 100%;
+    }
+    .dv{
+        width:50%;
+        margin-left: 30px;
+        
+    }
+    .div1 ,.div2 , .div3 , .div4 ,.div5, .div6{
+        width: 80%;
+    }
+    .fat{
+        display: flex;
+        flex-direction: column;
+    }
+    .son{
+        width: 100%;
+    }
+    
+}
+ 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .list1{
+        margin-left:8px;
+        margin-top: 20px;
+    }
+    .show{
+        visibility: visible;
+        margin-left: 65%;
+    }
+    .brand{
+        margin-left: 8px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .head{
+        display: flex;
+        flex-direction: column;
+    }
+    .text-content{
+        width: 100%;
+    }
+    .dv{
+        width:50%;
+        margin-left: 30px;
+        
+    }
+    .div1 ,.div2 , .div3 , .div4 ,.div5, .div6{
+        width: 80%;
+    }
+    .fat{
+        display: flex;
+        flex-direction: column;
+    }
+    .son{
+        width: 100%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+ 
+   
+}

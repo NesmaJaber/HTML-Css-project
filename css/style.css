@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    border-bottom: 1px solid #eee;
+}
+.show{
+   visibility: hidden;
+ 
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+   
+}
+.navbar ul li{
+    list-style: none;
+}
+.list-nav{
+    margin: 8px;
+}
+.list1{
+    margin-left: 50%;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+    
+}
+.navbar ul li a:hover{
+    color: #ba68c8;
+}
+.list-nav.active a{
+    color: #ba68c8;
+    text-shadow: 3px 3px 3px #f3d8ff;
+}
+.list-nav a{
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.brand{
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: bold;
+  
+}
+.name{
+    color: #ba68c8;
+    font-weight: bold;
+    margin-right: 5px;
+    font-size: 25px;
+}
+.back{
+    padding: 5%;
+}
+.background{
+    background-image: url(../img/Group2.png);
+    min-height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.text{
+    margin-top: 7%;
+
+}
+.text h3{
+    margin-top: 25px;
+
+}
+.cv{
+    padding: 10px 20px;
+    background-color: #ba68c8;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.cv:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.sec1 ,.sec2{
+    padding: 5%;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.text-content{
+    width: 45%;
+    margin: 25px;
+}
+
+.text-content p{
+    margin-top: 20px;
+    line-height: 30px;
+ 
+}
+.title-about{
+    font-size: 15px;
+    font-weight: bold;
+    color: #ba68c8;
+}
+.sub-title-about{
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.add{
+    padding: 5%;
+}
+.fat{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.question{
+
+    margin-top: 10%;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.son{
+    margin: 20px;
+    width: 50%;
+    padding: 20px;
+}
+.answer{
+    font-size: 18px;
+    word-spacing: 1.5px;
+    line-height: 30px;
+}
+.sec3 ,.sec4{
+    margin-top: 3%;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: #ba68c8;
+    margin: 20px;
+}
+hr{
+    display:inline ;
+}
+.div-portfolio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.div1 ,.div2 , .div3 , .div4 ,.div5, .div6{
+    width: 25%;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+}
+.div-portfolio img{
+ width: 100%;
+ height: 220px;
+ border-radius: 10px;
+}
+.skills-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
+}
+.icon-img{
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    background-color: #fefaff;
+}
+.dv{
+    width: 20%;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.dv p{
+    font-weight: bold;
+    margin-top: 20px;
+}
+.sec4{
+    padding: 5%;
+  
+}
+.dev1{
+    text-align: center;
+}
+.dev1 img{
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+}
+.b{
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    margin-left: 15px;
+}
+
+footer{
+    background-color: #e4e3e4;
+    padding: 5%;
+    margin-top: 5%;
+}
+.input{
+    padding: 10px;
+    width: 250px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #ba68c8;
+}
+.input:focus{
+    outline: none;
+}
+.send{
+    padding: 10px;
+    width: 100px;
+    border: 1px solid #ba68c8;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #ba68c8;
+}
+.contact-div{
+    margin-top: 30px;
+    text-align: center;
+}

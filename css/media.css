@@ -8,10 +8,6 @@
         margin-left:8px;
         margin-top: 20px;
     }
-    .show{
-        visibility: visible;
-        margin-left: 50%;
-    }
     .brand{
         margin-left: 8px;     
     }
@@ -56,10 +52,7 @@
         margin-left:8px;
         margin-top: 20px;
     }
-    .show{
-        visibility: visible;
-        margin-left: 65%;
-    }
+
     .brand{
         margin-left: 8px;
     }

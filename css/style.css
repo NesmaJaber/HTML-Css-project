@@ -7,11 +7,7 @@
 
 .navbar{
     padding: 20px;
-    position: fixed;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    z-index: 1;
-    border-bottom: 1px solid #eee;
+  
 }
 .navbar ul{
     display: flex;
